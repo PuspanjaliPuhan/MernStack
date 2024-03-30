@@ -20,3 +20,6 @@ Testing is Key: Implement a testing strategy to ensure your creation functions f
 Accessibility First: Design with everyone in mind. Ensure your web creations are usable by everyone, regardless of abilities.
 Performance Optimization: Optimize your code for speed. Techniques like image optimization, code minification, and efficient resource use lead to faster loading times and a better user experience.
 Remember: Scaling projects is a continuous learning journey. Embrace challenges, experiment with new tools and techniques, and don't hesitate to seek help from online resources and communities. Happy coding!
+
+git clone: https://github.com/PuspanjaliPuhan/Internship/tree/main
+
