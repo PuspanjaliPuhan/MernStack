@@ -1,0 +1,86 @@
+/* * {
+    margin: 0;
+    padding: 0;
+
+} */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato" sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: white;
+}
+
+
+
+.Img1 {
+    background-image: url(https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg);
+    min-height: 100%;
+}
+
+.Img2 {
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/12/14/24/night-3078326_1280.jpg);
+    min-height: 400px;
+}
+
+.Img3 {
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_960_720.jpg);
+    min-height: 400px;
+}
+
+.Img4 {
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/21/14/50/plouzane-1758197_1280.jpg);
+    min-height: 100%;
+}
+
+.Img1,
+.Img2,
+.Img3,
+.Img4 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Itext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+}
+
+.textbg {
+    background: rgb(82, 120, 147);
+    color: white;
+    padding: 10px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.section_light {
+    background-color: rgb(4, 42, 71);
+    color: rgb(240, 243, 246);
+}
+
+.link {
+    width: 100%;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: none;
+    color: rgb(87, 15, 15);
+    margin-top: 290px;
+    text-align: end;
+}
