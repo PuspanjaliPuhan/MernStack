@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+
+
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <!-- Font  -->
+
+
+    <!-- Bootstarp link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstarp link -->
+</head>
+
+<body>
+
+    <!-- Calculator start -->
+    <div class="container">
+
+        <div class="calculator">
+            <form action="">
+                <div class="display">
+                    <input type="text" name="display">
+                </div>
+                <div>
+
+                    <input type="button" value="AC" onclick="display.value =' '" id="operator">
+                    <input type="button" value="DE" onclick="display.value =display.value.toString().slice(0,-1) "
+                        id="operator">
+                    <input type="button" value="." onclick="display.value +='.' " id="operator">
+                    <input type="button" value="/" onclick="display.value +='/' " style="background: rgb(103, 76, 31);"
+                        id="operator">
+                </div>
+                <div>
+
+                    <input type="button" value="7" onclick="display.value +='7' ">
+                    <input type="button" value="8" onclick="display.value +='8' ">
+                    <input type="button" value="9" onclick="display.value +='9' ">
+                    <input type="button" value="*" onclick="display.value +='*' " id="operator"
+                        style="background: rgb(103, 76, 31);">
+                </div>
+                <div>
+
+                    <input type="button" value="4" onclick="display.value +='4' ">
+                    <input type="button" value="5" onclick="display.value +='5' ">
+                    <input type="button" value="6" onclick="display.value +='6' ">
+                    <input type="button" value="-" onclick="display.value +='-' " id="operator"
+                        style="background: rgb(103, 76, 31);">
+                </div>
+                <div>
+
+                    <input type="button" value="1" onclick="display.value +='1' ">
+                    <input type="button" value="2" onclick="display.value +='2' ">
+                    <input type="button" value="3" onclick="display.value +='3' ">
+                    <input type="button" value="+" onclick="display.value +='+' " id="operator"
+                        style="background: rgb(103, 76, 31);">
+                </div>
+                <div>
+
+                    <input type="button" value="00" onclick="display.value +='00' ">
+                    <input type="button" value="0" onclick="display.value +='0' ">
+                    <input type="button" id="equal" value="=" id="operator"
+                        onclick="display.value =eval(display.value) " style="background: rgb(103, 76, 31);">
+
+                </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <!-- Calculator end-->
+
+
+
+
+
+
+
+
+
+
+    <!-- JS link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- JS link  -->
+</body>
+
+</html>
